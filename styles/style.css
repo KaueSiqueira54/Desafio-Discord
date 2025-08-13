@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-father {
+  display: flex;
+  height: 50vh;
+  display: flex;
+  width: 100%;
+  background-image: url(../src/fundo-header.png);
+  background-size: 100%;
+  background-position: initial;
+  background-repeat: no-repeat;
+}
+
+.header-content {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.header-h1 {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-h1 h1 {
+  font-family: "Luckiest Guy", Times, serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.header-p {
+  padding: 1rem;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-p p {
+  color: #fff;
+  font-family: "Open Sans", Times, serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.buttons button {
+  width: 18.81rem;
+  height: 2.75rem;
+  border-radius: 1.375rem;
+  font-family: "Open Sans", Times, serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.buttons button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.8;
+}
+
+#button2 {
+  background-color: #23272a;
+  color: #fff;
+}
+
+/* Section 01 */
+
+.section-01 {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-section-01 {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.container-section-01-items {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-01-h1 {
+  font-family: "Open Sans", Times, serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.section-01-p {
+  padding-top: 1rem;
+  font-family: "Open Sans", Times, serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
