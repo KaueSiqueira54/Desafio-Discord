@@ -118,3 +118,106 @@
   font-weight: 400;
   font-size: 1rem;
 }
+
+/* Section 02 */
+
+.section-02 {
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-section-02-items {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-02-h1 {
+  font-family: "Open Sans", Times, serif;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.section-02-p {
+  font-family: "Open Sans", Times, serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
+/* Section 03 */
+
+.section-03 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-section-03-items {
+  width: 30%;
+}
+
+.section-03-h1 {
+  font-family: "Open Sans", Times, serif;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.section-03-p {
+  width: 70%;
+  font-family: "Open Sans", Times, serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
+/* Section 04 */
+
+.section-04 {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-04-h1 {
+  font-family: "Luckiest Guy", Times, serif;
+  font-weight: 400;
+  font-size: 3rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.section-04-p {
+  font-family: "Open Sans", Times, serif;
+  width: 60%;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+/* footer*/
+
+footer {
+  display: flex;
+  background-color: #23272a;
+  height: 20vh;
+}
+
+.image-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
